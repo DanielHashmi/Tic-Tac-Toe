@@ -15,4 +15,4 @@ This repository contains a simple yet fun game of Tic Tac Toe implemented in Jav
 - HTML
 - CSS
 
-##Happy Coding
+## Happy Coding
