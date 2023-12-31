@@ -1,0 +1,52 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.box {
+    height: 7rem;
+    width: 7rem;
+    border-radius: 1rem;
+    border: none;
+    background-color: rgb(255, 243, 130);
+    box-shadow: 0 0 8px -1px;
+    font-size: 5rem;
+    display: block;
+}
+body{
+    background-color:cornflowerblue;
+}
+.game {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    width: 21rem;
+    gap: .5rem;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.btn {
+    display: flex;
+    margin: auto;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    padding: .5rem 1rem;
+}
+
+.new {
+    display: none;
+}
+.winner{
+    text-align: center;
+    color: rgb(255, 123, 0);
+    font-size: 6rem;
+}
+.heading{
+    text-align: center;
+    font-size: 6rem;
+    color: antiquewhite;
+}
